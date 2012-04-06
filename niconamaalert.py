@@ -84,6 +84,9 @@ class XMLSocket :
     self.port = port
     self.sock = None
     self.buf = ""
+
+  def setHost(self, host) :
+    self.host = host
   
   def connect(self) :
     self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
