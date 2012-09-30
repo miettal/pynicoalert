@@ -1,6 +1,0 @@
-ニコ生アラート(本家)のAPIを使いやすくしたPythonスクリプトです．
-This is easy-to-use python script for niconama alert API.
-
-license: public domain
-
-This script requires xml2dict.
